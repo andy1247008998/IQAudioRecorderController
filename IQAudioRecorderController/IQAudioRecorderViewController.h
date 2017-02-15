@@ -130,5 +130,10 @@
 
 - (void)presentAudioRecorderViewControllerAnimated:(nonnull IQAudioRecorderViewController *)audioRecorderViewController;
 - (void)presentBlurredAudioRecorderViewControllerAnimated:(nonnull IQAudioRecorderViewController *)audioRecorderViewController;
+- (void)recordingButtonAction:(UIBarButtonItem *)item;
+- (void)continueRecordingButtonAction:(UIBarButtonItem *)item;
+- (void)pauseRecordingButtonAction:(UIBarButtonItem*)item;
+- (void)stopRecordingButtonAction:(UIBarButtonItem*)item;
+- (void)cancelRecordingAction:(UIBarButtonItem*)item;
 
 @end

@@ -879,8 +879,8 @@
     navigationController.navigationBar.translucent = YES;
 
     audioRecorderViewController.barStyle = audioRecorderViewController.barStyle;        //This line is used to refresh UI of Audio Recorder View Controller
-    [self presentViewController:navigationController animated:YES completion:^{
-    }];
+//    [self presentViewController:navigationController animated:YES completion:^{
+//    }];
 }
 
 - (void)presentBlurredAudioRecorderViewControllerAnimated:(nonnull IQAudioRecorderViewController *)audioRecorderViewController
