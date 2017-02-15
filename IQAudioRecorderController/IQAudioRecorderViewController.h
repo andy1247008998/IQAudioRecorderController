@@ -135,6 +135,12 @@
 - (void)pauseRecordingButtonAction:(UIBarButtonItem*)item;
 - (void)stopRecordingButtonAction:(UIBarButtonItem*)item;
 - (void)cancelRecordingAction:(UIBarButtonItem*)item;
+- (void)doneAction:(UIBarButtonItem*)item;
 - (void)cropAction:(UIBarButtonItem*)item;
+- (void)deleteAction:(UIBarButtonItem*)item;
+
+- (void)playAction:(UIBarButtonItem *)item;
+- (void)pausePlayingAction:(UIBarButtonItem*)item;
+- (void)stopPlayingButtonAction:(UIBarButtonItem*)item;
 
 @end
