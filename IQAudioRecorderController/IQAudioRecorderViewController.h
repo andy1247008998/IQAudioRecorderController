@@ -135,5 +135,6 @@
 - (void)pauseRecordingButtonAction:(UIBarButtonItem*)item;
 - (void)stopRecordingButtonAction:(UIBarButtonItem*)item;
 - (void)cancelRecordingAction:(UIBarButtonItem*)item;
+- (void)cropAction:(UIBarButtonItem*)item;
 
 @end
